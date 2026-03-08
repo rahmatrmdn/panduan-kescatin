@@ -7,7 +7,7 @@ Berikut adalah panduan dan langkah-langkah mudah untuk menginstal file APK Kesca
 ---
 
 ## Langkah 1: Download File APK Kescatin dari OneDrive
-1. Ketuk atau buka tautan berikut di *browser* *smartphone* Anda: [Link Download APK Kescatin Terbaru](https://1drv.ms/u/c/9851e05e37076bf4/IQBfd7iGpDnuSq_El9CTit__AXRabH4G5gSpB4i9y-AzjMQ?e=xf1ohS)
+1. Ketuk atau buka tautan berikut di *browser* *smartphone* Anda: <a href="https://1drv.ms/u/c/9851e05e37076bf4/IQBfd7iGpDnuSq_El9CTit__AXRabH4G5gSpB4i9y-AzjMQ?e=xf1ohS" target="_blank" rel="noopener noreferrer"><strong>Link Download APK Kescatin Terbaru</strong></a>
 2. Anda akan diarahkan ke halaman Microsoft OneDrive. Halaman tersebut akan menampilkan ikon file bernama `kescatin-x.x.apk`.
 3. Ketuk tombol **Download** berwarna biru yang berada tepat di bawah nama file tersebut. (Sebagai alternatif, Anda juga bisa mengetuk tombol **Download** berikon panah ke bawah di area menu sudut kiri atas).
 4. Tunggu beberapa saat hingga proses unduhan file selesai sepenuhnya.
