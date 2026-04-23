@@ -3,7 +3,7 @@
 > **Referensi config:** project `server.properties` & `zookeeper.properties`
 > **Mode:** KRaft (tanpa ZooKeeper)
 > **Cluster:** 3 node combined (controller + broker)
-> **Kafka Version:** 3.9.0 (latest stable, full KRaft support)
+> **Kafka Version:** 3.9.2 (latest stable, full KRaft support)
 
 ## Arsitektur Cluster
 
@@ -56,10 +56,10 @@ sudo useradd -r -m -s /usr/sbin/nologin kafka
 
 ```bash
 cd /opt
-sudo wget https://downloads.apache.org/kafka/3.9.0/kafka_2.13-3.9.0.tgz
-sudo tar -xzf kafka_2.13-3.9.0.tgz
-sudo mv kafka_2.13-3.9.0 kafka
-sudo rm kafka_2.13-3.9.0.tgz
+sudo wget https://downloads.apache.org/kafka/3.9.2/kafka_2.13-3.9.2.tgz
+sudo tar -xzf kafka_2.13-3.9.2.tgz
+sudo mv kafka_2.13-3.9.2 kafka
+sudo rm kafka_2.13-3.9.2.tgz
 ```
 
 ### 1.1 Buat Direktori Data
