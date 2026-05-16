@@ -19,13 +19,13 @@ flowchart TD
     %% Kriteria Risiko Tinggi
     EvaluasiRisiko -->|"Ya"| CekRisikoTinggi{"Apakah Memenuhi<br>Kriteria Risiko Tinggi?"}
     
-    noteMerah["Daftar Kriteria Risiko Tinggi:<br>- Usia kurang dari 20 tahun<br>- Usia lebih dari 49 tahun<br>- Jarak antar kehamilan kurang dari 2 tahun<br>- Jumlah anak lebih dari 2<br>- IMT kurang dari 18,5 (Kurus)<br>- Lingkar Lengan Atas (LILA) kurang dari 23,5 cm (Kurang Energi Kronis)<br>- Kadar Hb kurang dari 12 g/dL (Anemia) atau Tidak Tahu<br>- Penyakit kronis (Hipertensi, Diabetes, dll) TIDAK Terkontrol<br>- Positif TB Paru, Malaria, atau IMS (Sifilis)<br>- HIV atau Hepatitis B TIDAK Terkontrol<br>- Calon Ibu adalah Penderita Talasemia"]
+    noteMerah["Daftar Kriteria Risiko Tinggi:<br>- Usia kurang dari 20 tahun<br>- Usia lebih dari 49 tahun<br>- Jarak antar kehamilan kurang dari 2 tahun<br>- Jumlah anak lebih dari 2<br>- IMT kurang dari 18,5 (Kurus)<br>- Lingkar Lengan Atas (LILA) kurang dari 23,5 cm (Kurang Energi Kronis)<br>- Kadar Hb kurang dari 12 g/dL (Anemia) atau Tidak Tahu<br>- Menjawab 'Ya' atau 'Tidak Tahu' pada Riwayat Penyakit (Hipertensi, Diabetes, Asma, Jantung, Ginjal, dll)<br>- Menjawab 'Ya' atau 'Tidak Tahu' pada Infeksi (TB Paru, Malaria, Sifilis, HIV, Hepatitis B, TORCH)<br>- Calon Ibu adalah Penderita Talasemia"]
     CekRisikoTinggi -.- noteMerah
 
     %% Kriteria Risiko Menengah
     CekRisikoTinggi -->|"Tidak<br>(Lanjut Cek Menengah)"| CekRisikoMenengah{"Apakah Memenuhi<br>Kriteria Risiko Menengah?"}
     
-    noteKuning["Daftar Kriteria Risiko Menengah:<br>- Usia 36 hingga 49 tahun<br>- Tinggi badan kurang dari 145 cm<br>- IMT lebih dari 25 (Kelebihan berat badan / Obesitas)<br>- Memiliki riwayat persalinan yang buruk<br>- Penyakit kronis (Hipertensi, Diabetes, dll) TERKONTROL<br>- HIV atau Hepatitis B TERKONTROL<br>- Calon Ibu Pembawa & Calon Ayah Pembawa/Penderita Talasemia<br>- Salah satu (Ibu/Ayah) Pembawa/Penderita Hemofilia"]
+    noteKuning["Daftar Kriteria Risiko Menengah:<br>- Usia 36 hingga 49 tahun<br>- Tinggi badan kurang dari 145 cm<br>- IMT lebih dari 25 (Kelebihan berat badan / Obesitas)<br>- Memiliki riwayat persalinan yang buruk<br>- Calon Ibu Pembawa & Calon Ayah Pembawa/Penderita Talasemia<br>- Salah satu (Ibu/Ayah) Pembawa/Penderita Hemofilia"]
     CekRisikoMenengah -.- noteKuning
 
     %% Tidak Ada Risiko
